@@ -1,0 +1,16 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Про нас{% endblock %}
+{% block content%}
+    <div class="features">
+        <h1>Про нас</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non quasi rerum! Consequatur consequuntur impedit placeat, quibusdam suscipit voluptas voluptatum.</p>
+        <a href="{%url 'home'%}"><li> <button class="btn btn-danger">На главную страницу</li></button></a>
+        <style>
+          a {
+          list-style:none;
+          }
+        </style>
+    </div>
+{% endblock %}
+
